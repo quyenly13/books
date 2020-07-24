@@ -107,7 +107,79 @@ We **are very careful to** ensure..
 
 
 #### Reduce there is / there are
-- There is or There are marry a generic nount to generic web.
+- *There is* or *There are* marry a generic nount to generic web.
+- You can move the true subject and true verb from the end of the sentence to the begining.
+
+**Example**:
+
+*There are two disturbing facts about Perl you should know* <br>
+  &rarr; You should now two disturbing facts about Perl.
+
+In some cases, using **There is** to avoid the hassle of creating true subjects or verbs, but we can replace with a meaningful subject like this:
+
+*There is no guarantee that the updates will be received in sequential order.* <br>
+&rarr; Clients might not receive the updates in sequential order.
+
+#### Minimize certain adjectives and adverbs
+Sometimes, adjectives and adverb can make technical documentations sound dangerously like marketing material.
+
+**Example:**
+Setting this flag makes the application run **screamingly fast** &rarr; **225-250% faster**.
+
+## Short sentences
+
+The same rules of coding apply to writing: 
+- Shorter documentation reads faster than longer documentation.
+- Shorted documentation is typically easier to maintain than longer documentation.
+- Extra lines of documentation introduce additional points of failure.
+
+#### Focus each sentence on a single idea.
+
+Just as statements in a program execute a single task, sentences should execute a single idea.
+
+Example: 
+In bash, use the if, then, and fi statements to implement a simple conditional branching block in which the if statement evaluates an expression, the then statement introduces a block of statements to run when the if expression is true, and the fi statement marks the end of the conditional branching block. <br>
+&rarr; In bash, use the if, then and fi statements to implement a simple conditional branching block. The if statement evaluates an expression. The then statement introduces a block of statements to run when the if expression is true.The fi statement marks the end of the conditional branching block.
+
+#### Convert some long sentences to lists
+
+#### Eliminate or reduce extraneous words
+
+#### Reduce subordinate clauses
+
+#### Distinguish that from which
+
+## Lists and tables
+
+## Paragraphs
+
+## Audience
+
+## Documents
+
+## Punctuation
+
+## Markdown
+
+## Self-editing
+
+## Organizing large docs
+
+## Illustrating
+
+## Creating sample code
+
+
+
+## Resource
+1. https://www.chicagomanualofstyle.org/home.html
+2. https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/University%20of%20Oxford%20Style%20Guide.pdf
+3. https://developers.google.com/style
+4. https://docs.microsoft.com/en-us/style-guide/welcome/
+
+
+
+
 
 
 
