@@ -1,4 +1,6 @@
 Summary from Technical Writing Document of Google.
+
+----------------------------------------
 ## Grammer (optional)
 1. Noun
     - Nouns represent people, places, or things.
@@ -142,11 +144,38 @@ In bash, use the if, then, and fi statements to implement a simple conditional b
 &rarr; In bash, use the if, then and fi statements to implement a simple conditional branching block. The if statement evaluates an expression. The then statement introduces a block of statements to run when the if expression is true.The fi statement marks the end of the conditional branching block.
 
 #### Convert some long sentences to lists
+If the long sentence has **conjunction** (*or*/*and*,...), consider refactoring that sentence into bulleted or numbered list.
 
+**Example:** 
+
+- Long sentence: 
+
+  ```
+  To get started with the Frambus app, you must first find the app at a suitable store, pay for it using a valid credit or debit card, download it, configure it by assigning a value for the Foo variable in the /etc/Frambus file, and then run it by saying the magic word twice.
+  ```
+
+- Short sentence:
+
+  ```
+  Take the following steps to get started with the Frambus app:
+    1. Find the app at a suitable store.
+    2. Pay for the app using a valid credit or debit card.
+    3. Download the app.
+    4. Configure the app by assigning a value for the Foo variable in the /etc/Frambus file.
+    5. Run the app by saying the magic word twice.
+  ```
 #### Eliminate or reduce extraneous words
+A few common bloated phrases can be replaced with other word:
 
+- at this point in time **&rarr;** now
+- determine the location of **&rarr;**  find
+- is able to **&rarr;** can
+- causes the *production* of **&rarr;** produce
 #### Reduce subordinate clauses
-
+- Need to scrutinize subordinate clauses, consider it's role:
+  - Extend the single idea
+  - Bbranch off into a separate idea
+- Keep the `one sentence = one idea`
 #### Distinguish that from which
 
 ## Lists and tables
